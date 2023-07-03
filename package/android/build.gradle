@@ -137,11 +137,12 @@ android {
         abortOnError false
     }
 
+    /* NOT RECOGNIZED => TRIGGER AN ERROR
     publishing {
         singleVariant("release") {
             withSourcesJar()
         }
-    }
+    } */
 
     externalNativeBuild {
         cmake {
